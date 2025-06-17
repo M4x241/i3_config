@@ -1,0 +1,12 @@
+add_newline = true
+format = """\
+[](fg:#00ffaa)\
+[  ](bg:#00ffaa fg:#0c0020 bold)\
+[](fg:#00ffaa bg:#0c0020)\
+$directory\
+[󰉢](fg:#0c0020 bg:#ff00cc)\
+$git_branch\
+[](fg:#ff00cc)\
+\n$character
+"""
+
