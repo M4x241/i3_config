@@ -6,6 +6,8 @@ set $alt Mod1
 #START PROGRMAMS:
 exec --no-startup-id picom --config ~/.config/picom.conf
 bindsym $super+p exec ~/pantalla_switch.sh
+bindsym Print exec flameshot gui
+
 
 # set font
 font pango:Ionicons 9, Poppins Regular 9
